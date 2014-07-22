@@ -14,10 +14,11 @@ if(isset($_POST["en"]))
 <title>Arabic Letters to English letters convertor</title>  
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 </head>
-<form action="exe.php" method="post">
+<form action='example.php' method="post">
   text : <input type="text" name="en">
 <input type="submit" value="enter">
 </form>
 <hr>
 result:
- <section><?php echo $_POST['en']; ?></section>
+ <section><?php echo $output; ?></section>
+
